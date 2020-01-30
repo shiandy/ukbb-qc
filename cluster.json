@@ -1,0 +1,20 @@
+{
+    "__default__":
+    {
+        "mem": "9G",
+        "time": "0-02:00",
+        "n": "4",
+        "N": "1",
+        "partition": "hsph,canstat-p01,xlin,serial_requeue,shared"
+    },
+    "calls_stats":
+    {
+        "time": "0-01:00"
+    },
+    "bgen_to_gds":
+    {
+      "mem": "12G",
+      "time": "0-12:00",
+      "n": 16
+    }
+}
