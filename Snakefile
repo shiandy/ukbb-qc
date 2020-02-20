@@ -17,8 +17,10 @@ CHROM = list(range(1, 23)) + ["X", "XY"]
 # directory for output files
 # if you want to use $SCRATCH/directory, replace $SCRATCH with
 # os.environ['SCRATCH']
-out_root = os.path.join(os.environ['SCRATCH'], "xlin", "ashi",
-    "uk-biobank-qc")
+#out_root = os.path.join(os.environ['SCRATCH'], "xlin", "ashi",
+#    "uk-biobank-qc")
+# PLEASE EDIT THIS!
+out_root = "/path/to/your/output/directory"
 
 # sample missingness: filter out samples who are missing >= this
 # proportion of variants. Must be a number between 0 and 1.
